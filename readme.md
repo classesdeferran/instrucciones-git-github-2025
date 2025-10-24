@@ -22,8 +22,20 @@ git add --all
 git restore nombre_fichero <- revierte los cambios (como un CTRL + Z)>
 git add . <- para volver a la fase Add>
 git commit -m "Otro mensaje" <- para volver a la fase commit>
+git commit -a -m "nuevo mensaje"
+
 
 ## Instrucciones de control
 git status
 git log <- historial de commit extendido>
 git log --oneline <- historial de commits resumido>
+git diff <- muestra las diferencias>
+
+## Intrucciones para subir ficheros a un repositorio en la nube
+git remote add origin https://github.com/classesdeferran/instrucciones-git-github-2025.git  
+
+## Instrucciones para las ramas
+git branch <- obtener las ramas del proyecto>
+git branch -M main <- cambiar el nombre a la rama actual (pasará a ser main)>
+
+
