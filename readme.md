@@ -37,5 +37,7 @@ git remote add origin https://github.com/classesdeferran/instrucciones-git-githu
 ## Instrucciones para las ramas
 git branch <- obtener las ramas del proyecto>
 git branch -M main <- cambiar el nombre a la rama actual (pasará a ser main)>
+git checkout nueva_rama <- cambia a una rama existente>
+git switch -c rama-3 <- crea la rama y salta hasta ella>
 
-
+git branch -D rama_a_borrar <- borra una rama>
