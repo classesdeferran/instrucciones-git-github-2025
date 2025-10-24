@@ -17,9 +17,13 @@ git add --all
 .gitignore
 
 ### Subir a la fase "commit" = validación
-git commit -m "Mensaje explicativo"
+
 ### Si modificamos un fichero va a parar a la fase Modified
 git restore nombre_fichero <- revierte los cambios (como un CTRL + Z)>
 git add . <- para volver a la fase Add>
 git commit -m "Otro mensaje" <- para volver a la fase commit>
 
+## Instrucciones de control
+git status
+git log <- historial de commit extendido>
+git log --oneline <- historial de commits resumido>
