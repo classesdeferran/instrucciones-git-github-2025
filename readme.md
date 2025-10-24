@@ -11,4 +11,5 @@ git add --all
 ### Fichero para ignorar lo que no nos interese
 .gitignore
 
-
+### Subir a la fase "commit" = validación
+git commit -m "Mensaje explicativo"
