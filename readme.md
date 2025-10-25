@@ -29,16 +29,17 @@ git commit -a -m "nuevo mensaje"
 git status
 git log <- historial de commit extendido>
 git log --oneline <- historial de commits resumido>
-git diff <- muestra las diferencias>
+git log --oneline --graph <- historial de commits resumido con esquema de ramas>
+git diff <- muestra las diferencias entre versiones de los ficheros>
 
 ## Intrucciones para subir ficheros a un repositorio en la nube
-git remote add origin https://github.com/classesdeferran/instrucciones-git-github-2025.git  
+git remote add origin https://github.com/tu_cuenta/tu_repo.git  
 
 ## Instrucciones para las ramas
 git branch <- obtener las ramas del proyecto>
 
+git branch nueva_rama_1 <- crea una rama>
+git checkout nueva_rama_1 <- cambia a una rama existente>
+git switch -c nueva_rama_1 <- crea la rama y salta hasta ella>
 git branch -M main <- cambiar el nombre a la rama actual (pasará a ser main)>
-git checkout nueva_rama <- cambia a una rama existente>
-git switch -c rama-3 <- crea la rama y salta hasta ella>
-
 git branch -D rama_a_borrar <- borra una rama>
