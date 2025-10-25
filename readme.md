@@ -3,10 +3,15 @@
 ## Instrucciones esenciales
 ### Configuración de git
 > git config global user.name tu_nombre
+
 > git config global user.name "nombre1 nombre2"
+
 > git config global user.email tu_email@tu_proveedor.com
+
 > git config global core.editor "code --wait"
+
 > git config global core.autocrlf true <- en windows o input <- en mac o linux 
+
 > git config --global init.defaultBranch main <- establecer la rama por defecto>
 
 
